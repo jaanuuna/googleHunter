@@ -95,7 +95,6 @@ if __name__ == "__main__":
     local_guide = LocalGuide(google_id=target.google_id)
     photo_album = PhotoAlbum(google_id=target.google_id)
 
-    youtube.parse()
     print("Local Guide: " + local_guide.url)
     print("Photo Album: " + photo_album.url)
     
