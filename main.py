@@ -98,7 +98,6 @@ if __name__ == "__main__":
     youtube.parse()
     print("Local Guide: " + local_guide.url)
     print("Photo Album: " + photo_album.url)
-    print("YouTube " + youtube.youtube_url)
     
     webbrowser.open(local_guide.url, new=2)
     webbrowser.open(photo_album.url, new=2)
