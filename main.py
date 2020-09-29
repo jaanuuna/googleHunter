@@ -94,7 +94,6 @@ if __name__ == "__main__":
     target = Target(google_id='111847369296165457396')
     local_guide = LocalGuide(google_id=target.google_id)
     photo_album = PhotoAlbum(google_id=target.google_id)
-    youtube = YouTube(user="test")
 
     youtube.parse()
     print("Local Guide: " + local_guide.url)
@@ -103,4 +102,3 @@ if __name__ == "__main__":
     
     webbrowser.open(local_guide.url, new=2)
     webbrowser.open(photo_album.url, new=2)
-    webbrowser.open(youtube.youtube_url, new=2)
