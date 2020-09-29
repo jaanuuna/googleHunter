@@ -91,7 +91,7 @@ class YouTube(GoogleNetwork):
 
 
 if __name__ == "__main__":
-    target = Target(google_id='111847369296165457396')
+    target = Target()
     local_guide = LocalGuide(google_id=target.google_id)
     photo_album = PhotoAlbum(google_id=target.google_id)
 
